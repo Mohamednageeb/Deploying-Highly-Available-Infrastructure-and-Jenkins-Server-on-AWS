@@ -1,0 +1,9 @@
+<project>
+  <actions/>
+  <description>Example Jenkins Job</description>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo "Hello from Jenkins!"</command>
+    </hudson.tasks.Shell>
+  </builders>
+</project>
